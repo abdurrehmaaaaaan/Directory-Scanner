@@ -23,25 +23,17 @@ directory). A report is written to `scan_result.txt` in the working directory.
 ### Example output
  
 ```
-Directory Scan Report
-Root: /home/user/project
-Generated: 2026-07-09 10:16:17
-==========================================================================================
- 
-[DIR ] sub1                                               size=     <DIR>  ext=-         modified=2026-07-09 10:16:14
-[FILE] file1.txt                                          size=    12.0 B  ext=.txt      modified=2026-07-09 10:16:14
-[FILE] sub1/script.py                                     size=    12.0 B  ext=.py       modified=2026-07-09 10:16:14
- 
-==========================================================================================
-Total folders: 1
-Total files:   2
-Total size:    24 bytes
+Enter folder path to scan (leave blank for current directory): 
+
+Scan complete.
+Folders: 1339  Files: 6933  Total size: 720,961,988 bytes
+Report saved to: scan_result.txt
 ```
  
 ## Project structure
  
 ```
-directory-scanner/
-├── directory_scanner.py   # main script
+Directory Scanner/
+├── main.py   
 └── README.md
 ```
