@@ -1,0 +1,10 @@
+Directory Scan Report
+Root: C:\Users\HP\OneDrive - FAST National University\Desktop\INTERNSHIP\TASK 1
+Generated: 2026-07-09 15:38:27
+==========================================================================================
+[FILE] main.py                                            size=    4.4 KB  ext=.py       modified=2026-07-09 15:36:31
+[FILE] scan_result.txt                                    size=   622.0 B  ext=.txt      modified=2026-07-09 15:38:07
+==========================================================================================
+Total folders: 0
+Total files:   2
+Total size:    5,103 bytes
