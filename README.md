@@ -14,7 +14,7 @@ At the end it also shows totals - how many folders, how many files, and the comb
 ## How to run it
 
 ```bash
-python directory_scanner.py
+python main.py
 ```
 
 It'll ask you for a folder path. You can type one in, or just hit Enter to scan the folder you're currently in.
@@ -24,4 +24,14 @@ It'll ask you for a folder path. You can type one in, or just hit Enter to scan 
 - `FileEntry` - holds the info for one file or folder (size, extension, date)
 - `DirectoryScanner` - walks through the folder, creates a `FileEntry` for everything it finds, and builds the report. The same report is used both to print to the screen and to save to the text file, so they always match.
 
-## Example
+## Example Output
+Directory Scan Report
+Root: C:\Users\HP\OneDrive - FAST National University\Desktop\INTERNSHIP\TASK 1
+Generated: 2026-07-09 15:38:27
+==========================================================================================
+[FILE] main.py                                            size=    4.4 KB  ext=.py       modified=2026-07-09 15:36:31
+[FILE] scan_result.txt                                    size=   622.0 B  ext=.txt      modified=2026-07-09 15:38:07
+==========================================================================================
+Total folders: 0
+Total files:   2
+Total size:    5,103 bytes
