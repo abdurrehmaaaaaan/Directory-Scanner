@@ -25,6 +25,8 @@ It'll ask you for a folder path. You can type one in, or just hit Enter to scan 
 - `DirectoryScanner` - walks through the folder, creates a `FileEntry` for everything it finds, and builds the report. The same report is used both to print to the screen and to save to the text file, so they always match.
 
 ## Example Output
+
+```
 Directory Scan Report
 Root: C:\Users\HP\OneDrive - FAST National University\Desktop\INTERNSHIP\TASK 1
 Generated: 2026-07-09 15:38:27
@@ -35,3 +37,4 @@ Generated: 2026-07-09 15:38:27
 Total folders: 0
 Total files:   2
 Total size:    5,103 bytes
+```
